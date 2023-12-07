@@ -1,0 +1,12 @@
+Screen1 As screen:
+
+    Button1 As button:
+        Fill: =RGBA(0, 134, 208, 1)
+        Font: =Font.'Segoe UI'
+        Height: =50
+        OnSelect: =Navigate(Screen2,ScreenTransition.UnCover)
+        Text: ="Next >>>"
+        X: =1005
+        Y: =615
+        ZIndex: =1
+

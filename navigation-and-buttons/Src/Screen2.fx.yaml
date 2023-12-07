@@ -1,0 +1,22 @@
+Screen2 As screen:
+
+    Button2 As button:
+        Fill: =RGBA(0, 134, 208, 1)
+        Height: =50
+        OnSelect: |-
+            =Navigate(Screen3,ScreenTransition.CoverRight
+            )
+        Text: ="Next >>"
+        X: =1112
+        Y: =615
+        ZIndex: =1
+
+    Button3 As button:
+        Fill: =RGBA(0, 134, 208, 1)
+        Height: =50
+        OnSelect: =Back(ScreenTransition.UnCoverRight)
+        Text: ="<< Back"
+        X: =777
+        Y: =615
+        ZIndex: =2
+
